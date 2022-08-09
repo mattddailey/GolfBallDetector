@@ -47,7 +47,7 @@ class CameraViewModel: CameraViewModelProtocol {
     // MARK: - Public methods
     
     public func flipAndNormalizeRect(rect: CGRect, width: CGFloat, height: CGFloat) -> CGRect {
-        // flip rect coordinates by 180 degrees on the x-axis; SwiftUI sets origin at top left, CoreML uses bottom left
+        // flip rect coordinates vertically by 180 degrees; SwiftUI sets origin at top left, CoreML uses bottom left
         let transform = CGAffineTransform(scaleX: 1, y: -1).translatedBy(x: 0, y: -1)
         let flippedRect = rect.applying(transform)
         
