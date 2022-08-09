@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82536B928A02BFC0046E4E3 /* GolfBallDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82536B828A02BFC0046E4E3 /* GolfBallDetectorApp.swift */; };
+		A82536BB28A02BFC0046E4E3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82536BA28A02BFC0046E4E3 /* CameraView.swift */; };
+		A82536BD28A02BFD0046E4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82536BC28A02BFD0046E4E3 /* Assets.xcassets */; };
+		A82536C028A02BFD0046E4E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82536BF28A02BFD0046E4E3 /* Preview Assets.xcassets */; };
+		A82536CA28A02BFE0046E4E3 /* GolfBallDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82536C928A02BFE0046E4E3 /* GolfBallDetectorTests.swift */; };
+		A82536D428A02BFE0046E4E3 /* GolfBallDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82536D328A02BFE0046E4E3 /* GolfBallDetectorUITests.swift */; };
+		A82536D628A02BFE0046E4E3 /* GolfBallDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82536D528A02BFE0046E4E3 /* GolfBallDetectorUITestsLaunchTests.swift */; };
+		A82536ED28A034BE0046E4E3 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82536EC28A034BE0046E4E3 /* CameraManager.swift */; };
+		A82536F328A044FC0046E4E3 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82536F228A044FC0046E4E3 /* CameraViewModel.swift */; };
+		A82536FA28A1E81A0046E4E3 /* GolfBallDetector1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A82536E528A02C290046E4E3 /* GolfBallDetector1.mlmodel */; };
+		A8736B3B28A3055C009DF945 /* IdentifiableBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8736B3A28A3055C009DF945 /* IdentifiableBoundingBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A82536C628A02BFE0046E4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82536AD28A02BFC0046E4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82536B428A02BFC0046E4E3;
+			remoteInfo = GolfBallDetector;
+		};
+		A82536D028A02BFE0046E4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82536AD28A02BFC0046E4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82536B428A02BFC0046E4E3;
+			remoteInfo = GolfBallDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A82536B528A02BFC0046E4E3 /* GolfBallDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfBallDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82536B828A02BFC0046E4E3 /* GolfBallDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfBallDetectorApp.swift; sourceTree = "<group>"; };
+		A82536BA28A02BFC0046E4E3 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A82536BC28A02BFD0046E4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82536BF28A02BFD0046E4E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A82536C528A02BFE0046E4E3 /* GolfBallDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfBallDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82536C928A02BFE0046E4E3 /* GolfBallDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfBallDetectorTests.swift; sourceTree = "<group>"; };
+		A82536CF28A02BFE0046E4E3 /* GolfBallDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfBallDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82536D328A02BFE0046E4E3 /* GolfBallDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfBallDetectorUITests.swift; sourceTree = "<group>"; };
+		A82536D528A02BFE0046E4E3 /* GolfBallDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfBallDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A82536E528A02C290046E4E3 /* GolfBallDetector1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GolfBallDetector1.mlmodel; sourceTree = "<group>"; };
+		A82536EC28A034BE0046E4E3 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		A82536F228A044FC0046E4E3 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		A8736B3A28A3055C009DF945 /* IdentifiableBoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableBoundingBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82536B228A02BFC0046E4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82536C228A02BFE0046E4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82536CC28A02BFE0046E4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82536AC28A02BFC0046E4E3 = {
+			isa = PBXGroup;
+			children = (
+				A82536B728A02BFC0046E4E3 /* GolfBallDetector */,
+				A82536C828A02BFE0046E4E3 /* GolfBallDetectorTests */,
+				A82536D228A02BFE0046E4E3 /* GolfBallDetectorUITests */,
+				A82536B628A02BFC0046E4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82536B628A02BFC0046E4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82536B528A02BFC0046E4E3 /* GolfBallDetector.app */,
+				A82536C528A02BFE0046E4E3 /* GolfBallDetectorTests.xctest */,
+				A82536CF28A02BFE0046E4E3 /* GolfBallDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82536B728A02BFC0046E4E3 /* GolfBallDetector */ = {
+			isa = PBXGroup;
+			children = (
+				A826619628A1EF9D00DED4DD /* Managers */,
+				A826619728A1EFC400DED4DD /* Camera */,
+				A82536E428A02C250046E4E3 /* MLModels */,
+				A82536B828A02BFC0046E4E3 /* GolfBallDetectorApp.swift */,
+				A82536BC28A02BFD0046E4E3 /* Assets.xcassets */,
+				A82536BE28A02BFD0046E4E3 /* Preview Content */,
+			);
+			path = GolfBallDetector;
+			sourceTree = "<group>";
+		};
+		A82536BE28A02BFD0046E4E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A82536BF28A02BFD0046E4E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A82536C828A02BFE0046E4E3 /* GolfBallDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A82536C928A02BFE0046E4E3 /* GolfBallDetectorTests.swift */,
+			);
+			path = GolfBallDetectorTests;
+			sourceTree = "<group>";
+		};
+		A82536D228A02BFE0046E4E3 /* GolfBallDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A82536D328A02BFE0046E4E3 /* GolfBallDetectorUITests.swift */,
+				A82536D528A02BFE0046E4E3 /* GolfBallDetectorUITestsLaunchTests.swift */,
+			);
+			path = GolfBallDetectorUITests;
+			sourceTree = "<group>";
+		};
+		A82536E428A02C250046E4E3 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				A82536E528A02C290046E4E3 /* GolfBallDetector1.mlmodel */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+		A826619628A1EF9D00DED4DD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A82536EC28A034BE0046E4E3 /* CameraManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A826619728A1EFC400DED4DD /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A82536F228A044FC0046E4E3 /* CameraViewModel.swift */,
+				A82536BA28A02BFC0046E4E3 /* CameraView.swift */,
+				A8736B3A28A3055C009DF945 /* IdentifiableBoundingBox.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82536B428A02BFC0046E4E3 /* GolfBallDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82536D928A02BFE0046E4E3 /* Build configuration list for PBXNativeTarget "GolfBallDetector" */;
+			buildPhases = (
+				A82536B128A02BFC0046E4E3 /* Sources */,
+				A82536B228A02BFC0046E4E3 /* Frameworks */,
+				A82536B328A02BFC0046E4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfBallDetector;
+			productName = GolfBallDetector;
+			productReference = A82536B528A02BFC0046E4E3 /* GolfBallDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A82536C428A02BFE0046E4E3 /* GolfBallDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82536DC28A02BFE0046E4E3 /* Build configuration list for PBXNativeTarget "GolfBallDetectorTests" */;
+			buildPhases = (
+				A82536C128A02BFE0046E4E3 /* Sources */,
+				A82536C228A02BFE0046E4E3 /* Frameworks */,
+				A82536C328A02BFE0046E4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82536C728A02BFE0046E4E3 /* PBXTargetDependency */,
+			);
+			name = GolfBallDetectorTests;
+			productName = GolfBallDetectorTests;
+			productReference = A82536C528A02BFE0046E4E3 /* GolfBallDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A82536CE28A02BFE0046E4E3 /* GolfBallDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82536DF28A02BFE0046E4E3 /* Build configuration list for PBXNativeTarget "GolfBallDetectorUITests" */;
+			buildPhases = (
+				A82536CB28A02BFE0046E4E3 /* Sources */,
+				A82536CC28A02BFE0046E4E3 /* Frameworks */,
+				A82536CD28A02BFE0046E4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82536D128A02BFE0046E4E3 /* PBXTargetDependency */,
+			);
+			name = GolfBallDetectorUITests;
+			productName = GolfBallDetectorUITests;
+			productReference = A82536CF28A02BFE0046E4E3 /* GolfBallDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82536AD28A02BFC0046E4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A82536B428A02BFC0046E4E3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A82536C428A02BFE0046E4E3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A82536B428A02BFC0046E4E3;
+					};
+					A82536CE28A02BFE0046E4E3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A82536B428A02BFC0046E4E3;
+					};
+				};
+			};
+			buildConfigurationList = A82536B028A02BFC0046E4E3 /* Build configuration list for PBXProject "GolfBallDetector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82536AC28A02BFC0046E4E3;
+			productRefGroup = A82536B628A02BFC0046E4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82536B428A02BFC0046E4E3 /* GolfBallDetector */,
+				A82536C428A02BFE0046E4E3 /* GolfBallDetectorTests */,
+				A82536CE28A02BFE0046E4E3 /* GolfBallDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82536B328A02BFC0046E4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82536C028A02BFD0046E4E3 /* Preview Assets.xcassets in Resources */,
+				A82536BD28A02BFD0046E4E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82536C328A02BFE0046E4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82536CD28A02BFE0046E4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82536B128A02BFC0046E4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82536BB28A02BFC0046E4E3 /* CameraView.swift in Sources */,
+				A82536FA28A1E81A0046E4E3 /* GolfBallDetector1.mlmodel in Sources */,
+				A82536ED28A034BE0046E4E3 /* CameraManager.swift in Sources */,
+				A8736B3B28A3055C009DF945 /* IdentifiableBoundingBox.swift in Sources */,
+				A82536B928A02BFC0046E4E3 /* GolfBallDetectorApp.swift in Sources */,
+				A82536F328A044FC0046E4E3 /* CameraViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82536C128A02BFE0046E4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82536CA28A02BFE0046E4E3 /* GolfBallDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82536CB28A02BFE0046E4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82536D428A02BFE0046E4E3 /* GolfBallDetectorUITests.swift in Sources */,
+				A82536D628A02BFE0046E4E3 /* GolfBallDetectorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A82536C728A02BFE0046E4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82536B428A02BFC0046E4E3 /* GolfBallDetector */;
+			targetProxy = A82536C628A02BFE0046E4E3 /* PBXContainerItemProxy */;
+		};
+		A82536D128A02BFE0046E4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82536B428A02BFC0046E4E3 /* GolfBallDetector */;
+			targetProxy = A82536D028A02BFE0046E4E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A82536D728A02BFE0046E4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A82536D828A02BFE0046E4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82536DA28A02BFE0046E4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GolfBallDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = XAL5X9D322;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.putters.GolfBallDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A82536DB28A02BFE0046E4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GolfBallDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = XAL5X9D322;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.putters.GolfBallDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A82536DD28A02BFE0046E4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAL5X9D322;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.putters.GolfBallDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfBallDetector.app/GolfBallDetector";
+			};
+			name = Debug;
+		};
+		A82536DE28A02BFE0046E4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAL5X9D322;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.putters.GolfBallDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfBallDetector.app/GolfBallDetector";
+			};
+			name = Release;
+		};
+		A82536E028A02BFE0046E4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAL5X9D322;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.putters.GolfBallDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfBallDetector;
+			};
+			name = Debug;
+		};
+		A82536E128A02BFE0046E4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XAL5X9D322;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.putters.GolfBallDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfBallDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82536B028A02BFC0046E4E3 /* Build configuration list for PBXProject "GolfBallDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82536D728A02BFE0046E4E3 /* Debug */,
+				A82536D828A02BFE0046E4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82536D928A02BFE0046E4E3 /* Build configuration list for PBXNativeTarget "GolfBallDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82536DA28A02BFE0046E4E3 /* Debug */,
+				A82536DB28A02BFE0046E4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82536DC28A02BFE0046E4E3 /* Build configuration list for PBXNativeTarget "GolfBallDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82536DD28A02BFE0046E4E3 /* Debug */,
+				A82536DE28A02BFE0046E4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82536DF28A02BFE0046E4E3 /* Build configuration list for PBXNativeTarget "GolfBallDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82536E028A02BFE0046E4E3 /* Debug */,
+				A82536E128A02BFE0046E4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82536AD28A02BFC0046E4E3 /* Project object */;
+}
